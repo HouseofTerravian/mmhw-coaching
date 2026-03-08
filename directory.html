@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coach Directory | Mr. Metaphysical Coaching &amp; Personal Growth</title>
+  <meta name="description" content="Browse our directory of personal growth coaches. Filter by specialty, approach, and focus area. Find your coach today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="./index.html" class="nav-brand" aria-label="MMHW Coaching — Home">
+        <span class="nav-brand-name">Mr. Metaphysical</span>
+        <span class="nav-brand-tagline">Coaching &amp; Personal Growth</span>
+      </a>
+      <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./coaching.html">Coaching</a></li>
+        <li><a href="./directory.html">Directory</a></li>
+        <li><a href="./groups.html">Groups</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="./directory.html">Find a Coach</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="label">Find Your Coach</span>
+      <h1 class="display-lg" style="margin-bottom: 1rem;">Coach Directory</h1>
+      <p class="text-lg" style="max-width: 580px;">
+        Browse our network of personal growth coaches. Each coach is independently practicing and has been reviewed for alignment with the MMHW platform values. Filter by specialty to find the right fit.
+      </p>
+    </div>
+  </section>
+
+  <!-- DIRECTORY -->
+  <section class="section--white">
+    <div class="container">
+
+      <!-- Filters -->
+      <div class="directory-filters" role="group" aria-label="Filter coaches by specialty">
+        <button class="filter-btn active" data-filter="all">All Coaches</button>
+        <button class="filter-btn" data-filter="life-transitions">Life Transitions</button>
+        <button class="filter-btn" data-filter="burnout">Burnout Recovery</button>
+        <button class="filter-btn" data-filter="career">Career</button>
+        <button class="filter-btn" data-filter="mindset">Mindset</button>
+        <button class="filter-btn" data-filter="relationships">Relationships</button>
+        <button class="filter-btn" data-filter="leadership">Leadership</button>
+      </div>
+
+      <!-- Coach Grid -->
+      <div class="directory-grid">
+
+        <!-- Coach 1: Jordan Myles -->
+        <div class="coach-card" data-tags="life-transitions burnout mindset">
+          <div class="coach-avatar">JM</div>
+          <div class="coach-name">Jordan Myles</div>
+          <div class="coach-title">Certified Life &amp; Transition Coach</div>
+          <p class="coach-bio">Specializes in helping professionals navigate major life transitions — career pivots, identity shifts, and the disorientation that comes when what worked before no longer does.</p>
+          <div class="coach-tags">
+            <span class="coach-tag">Life Transitions</span>
+            <span class="coach-tag">Burnout Recovery</span>
+            <span class="coach-tag">Mindset</span>
+          </div>
+          <div class="coach-rate">$185/session &middot; Packages available</div>
+          <a href="./contact.html" class="btn-secondary btn-sm">Book Discovery Call &rarr;</a>
+        </div>
+
+        <!-- Coach 2: Simone Asha -->
+        <div class="coach-card" data-tags="career leadership mindset">
+          <div class="coach-avatar">SA</div>
+          <div class="coach-name">Simone Asha</div>
+          <div class="coach-title">Executive &amp; Career Coach</div>
+          <p class="coach-bio">Works with mid-career professionals and executives building intentional careers, developing leadership presence, and making moves that align with who they are becoming.</p>
+          <div class="coach-tags">
+            <span class="coach-tag">Career</span>
+            <span class="coach-tag">Leadership</span>
+            <span class="coach-tag">Mindset</span>
+          </div>
+          <div class="coach-rate">$220/session &middot; Packages available</div>
+          <a href="./contact.html" class="btn-secondary btn-sm">Book Discovery Call &rarr;</a>
+        </div>
+
+        <!-- Coach 3: Devon Wells -->
+        <div class="coach-card" data-tags="burnout resilience mindset">
+          <div class="coach-avatar">DW</div>
+          <div class="coach-name">Devon Wells</div>
+          <div class="coach-title">Resilience &amp; Burnout Recovery Coach</div>
+          <p class="coach-bio">Helps high-achievers recover from chronic burnout, reconnect with their energy, and rebuild sustainable momentum without sacrificing the ambition that drives them.</p>
+          <div class="coach-tags">
+            <span class="coach-tag">Burnout Recovery</span>
+            <span class="coach-tag">Resilience</span>
+            <span class="coach-tag">Mindset</span>
+          </div>
+          <div class="coach-rate">$165/session &middot; Packages available</div>
+          <a href="./contact.html" class="btn-secondary btn-sm">Book Discovery Call &rarr;</a>
+        </div>
+
+        <!-- Coach 4: Rosa Mendez -->
+        <div class="coach-card" data-tags="relationships life-transitions">
+          <div class="coach-avatar">RM</div>
+          <div class="coach-name">Rosa Mendez</div>
+          <div class="coach-title">Relationship &amp; Personal Growth Coach</div>
+          <p class="coach-bio">Guides clients through the relational dimensions of personal growth — from communication patterns to attachment styles to the work of building genuinely nourishing connections.</p>
+          <div class="coach-tags">
+            <span class="coach-tag">Relationships</span>
+            <span class="coach-tag">Life Transitions</span>
+            <span class="coach-tag">Communication</span>
+          </div>
+          <div class="coach-rate">$195/session &middot; Packages available</div>
+          <a href="./contact.html" class="btn-secondary btn-sm">Book Discovery Call &rarr;</a>
+        </div>
+
+        <!-- Coach 5: Theo Kimani -->
+        <div class="coach-card" data-tags="leadership career mindset">
+          <div class="coach-avatar">TK</div>
+          <div class="coach-name">Theo Kimani</div>
+          <div class="coach-title">Personal Leadership Coach</div>
+          <p class="coach-bio">Works at the intersection of inner development and outer effectiveness. His clients learn to lead themselves — which turns out to be the prerequisite for leading anything else.</p>
+          <div class="coach-tags">
+            <span class="coach-tag">Leadership</span>
+            <span class="coach-tag">Career</span>
+            <span class="coach-tag">Personal Development</span>
+          </div>
+          <div class="coach-rate">$240/session &middot; Packages available</div>
+          <a href="./contact.html" class="btn-secondary btn-sm">Book Discovery Call &rarr;</a>
+        </div>
+
+        <!-- Coach 6: Naomi Price -->
+        <div class="coach-card" data-tags="life-transitions burnout relationships">
+          <div class="coach-avatar">NP</div>
+          <div class="coach-name">Naomi Price</div>
+          <div class="coach-title">Life Clarity &amp; Purpose Coach</div>
+          <p class="coach-bio">Specializes in the deeper questions — meaning, purpose, direction. Works with people at crossroads who are ready to stop moving in circles and start moving toward something real.</p>
+          <div class="coach-tags">
+            <span class="coach-tag">Purpose</span>
+            <span class="coach-tag">Life Transitions</span>
+            <span class="coach-tag">Meaning</span>
+          </div>
+          <div class="coach-rate">$175/session &middot; Packages available</div>
+          <a href="./contact.html" class="btn-secondary btn-sm">Book Discovery Call &rarr;</a>
+        </div>
+
+      </div>
+
+      <!-- Join Directory CTA -->
+      <div class="join-directory-cta">
+        <h3>Are You a Coach?</h3>
+        <p>We are growing our network of personal growth coaches. If you are a trained, values-aligned coach looking to reach more clients, apply to join the directory.</p>
+        <a href="./contact.html" class="btn-primary">Apply to Join the Directory &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW THE DIRECTORY WORKS -->
+  <section class="section--surface">
+    <div class="container">
+      <div class="section-header--center">
+        <span class="label">How It Works</span>
+        <h2 class="display-md">From Browse to Booked</h2>
+        <p style="margin-top: 0.75rem;">Finding the right coach is simpler than it sounds. Here's what to expect.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-step-number">1</div>
+          <h4>Filter &amp; Browse</h4>
+          <p>Use the filter buttons to narrow by specialty. Read bios carefully — the coach's language and approach tell you a lot about fit before you even talk.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-number">2</div>
+          <h4>Book a Discovery Call</h4>
+          <p>Click "Book Discovery Call" to reach out. Discovery calls are free, 20–30 minutes, and no-pressure. You're exploring whether working together makes sense.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-number">3</div>
+          <h4>Discuss Your Goals</h4>
+          <p>Come with a rough sense of what you want to work on. Your coach will help clarify it — but you need to bring the honesty. The better your self-disclosure, the better the fit assessment.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-number">4</div>
+          <h4>Start Your Engagement</h4>
+          <p>If the fit is right, you'll agree on an engagement format, cadence, and investment. Most coaches can begin within 1–2 weeks of an initial call.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMAIL CAPTURE -->
+  <section class="email-capture-section">
+    <div class="container">
+      <div class="email-capture-container">
+        <div>
+          <span class="label">Stay Connected</span>
+          <h2 class="email-capture-headline">New Coaches Added Regularly</h2>
+          <p class="email-capture-desc">Get notified when new coaches join the directory or group programs open for enrollment.</p>
+        </div>
+        <form class="email-capture-form" onsubmit="handleEmailCapture(event)">
+          <input type="email" class="email-input" placeholder="Your email address" required aria-label="Email address" />
+          <button type="submit" class="btn-primary">Notify Me &rarr;</button>
+          <p class="email-capture-note">We respect your privacy. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand-name">Mr. Metaphysical</span>
+          <span class="footer-brand-tagline">Coaching &amp; Personal Growth</span>
+          <p class="footer-brand-desc">A personal growth coaching platform connecting people with coaches, communities, and tools for clarity, resilience, and meaningful development.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="./coaching.html">1:1 Coaching</a></li>
+            <li><a href="./directory.html">Coach Directory</a></li>
+            <li><a href="./groups.html">Growth Groups</a></li>
+            <li><a href="./contact.html">Work With Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="./disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p class="footer-contact-item">admin@mrmetaphysical.io</p>
+          <p class="footer-contact-item">(405) 544-2544</p>
+          <p class="footer-contact-item">6608 N Western #1477<br>Oklahoma City, OK 73116</p>
+          <p class="footer-contact-item" style="margin-top:0.75rem; font-size:0.75rem; opacity:0.6;">Also visit:<br>
+            <a href="https://mrmetaphysical.io" style="color:var(--color-primary-light);">Clinical Practice</a> &nbsp;&middot;&nbsp;
+            <a href="https://institute.mrmetaphysical.io" style="color:var(--color-primary-light);">The Institute</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner">
+          <p class="footer-copyright">&copy; 2026 Mr. Metaphysical Health and Wellness, Inc. All rights reserved.</p>
+          <p class="footer-disclaimer">Coaching and personal growth services offered through this platform are non-clinical and non-regulated. They are not psychotherapy, do not diagnose or treat mental health conditions, and are not a substitute for professional mental health treatment. Coaches in this directory operate as independent practitioners.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
