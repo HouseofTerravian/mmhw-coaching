@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Growth Rooms | Mr. Metaphysical The Circle</title>
+  <meta name="description" content="Specialty growth rooms are coming. Structured live environments for intensive personal development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="./index.html" class="nav-brand" aria-label="MMHW Coaching — Home">
+        <span class="nav-brand-name">Mr. Metaphysical</span>
+        <span class="nav-brand-tagline">The Circle</span>
+      </a>
+      <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./coaching.html">Coaching</a></li>
+        <li><a href="./directory.html">Directory</a></li>
+        <li><a href="./groups.html">Groups</a></li>
+        <li><a href="./clarity-session.html">Clarity Session</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="./clarity-session.html">Reserve Your Spot</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- COMING SOON -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <span class="label">Coming Soon</span>
+        <h1 class="display-xl">Specialty<br>Growth Rooms</h1>
+        <p class="text-lg" style="margin-top: 1.25rem; max-width: 520px;">
+          Focused live environments for intensive personal development. Cohort-based, immersive, and structured around specific growth challenges.
+        </p>
+        <div class="hero-actions">
+          <a href="./groups.html" class="btn-primary">View Current Rooms &rarr;</a>
+          <a href="./clarity-session.html" class="btn-secondary">Start With a Clarity Session</a>
+        </div>
+        <p class="hero-note">
+          This page is reserved for future expansion. Check back soon.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMAIL CAPTURE -->
+  <section class="email-capture-section">
+    <div class="container">
+      <div class="email-capture-container">
+        <div>
+          <span class="label">Be First to Know</span>
+          <h2 class="email-capture-headline">Get Notified When Rooms Launch</h2>
+          <p class="email-capture-desc">Subscribe to be notified when specialty growth rooms open for enrollment.</p>
+        </div>
+        <form class="email-capture-form" onsubmit="handleEmailCapture(event)">
+          <input type="email" class="email-input" placeholder="Your email address" required aria-label="Email address" />
+          <button type="submit" class="btn-primary">Notify Me &rarr;</button>
+          <p class="email-capture-note">We respect your privacy. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand-name">Mr. Metaphysical</span>
+          <span class="footer-brand-tagline">The Circle</span>
+          <p class="footer-brand-desc">A personal growth circle connecting people with coaches, communities, and tools for clarity, resilience, and meaningful development.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="./coaching.html">1:1 Coaching</a></li>
+            <li><a href="./directory.html">Coach Directory</a></li>
+            <li><a href="./groups.html">Growth Rooms</a></li>
+            <li><a href="./clarity-session.html">Clarity Session</a></li>
+            <li><a href="./growth-circle.html">Growth Circle</a></li>
+            <li><a href="./contact.html">Work With Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="./disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p class="footer-contact-item">admin@mrmetaphysical.io</p>
+          <p class="footer-contact-item">(405) 544-2544</p>
+          <p class="footer-contact-item">6608 N Western #1477<br>Oklahoma City, OK 73116</p>
+          <p class="footer-contact-item" style="margin-top:0.75rem; font-size:0.75rem; opacity:0.6;">Also visit:<br>
+            <a href="https://mrmetaphysical.io" style="color:var(--color-primary-light);">Clinical Practice</a> &nbsp;&middot;&nbsp;
+            <a href="https://institute.mrmetaphysical.io" style="color:var(--color-primary-light);">The Institute</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner">
+          <p class="footer-copyright">&copy; 2026 Mr. Metaphysical Health and Wellness, Inc. All rights reserved.</p>
+          <p class="footer-disclaimer">Coaching and personal growth services offered through this platform are non-clinical and non-regulated. They are not psychotherapy, do not diagnose or treat mental health conditions, and are not a substitute for professional mental health treatment. Coaches in this directory operate as independent practitioners.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
